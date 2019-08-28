@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/mehjong/static/css/main.2cce8147.chunk.css",
-    "main.js": "/mehjong/static/js/main.45023614.chunk.js",
-    "main.js.map": "/mehjong/static/js/main.45023614.chunk.js.map",
+    "main.js": "/mehjong/static/js/main.12abb323.chunk.js",
+    "main.js.map": "/mehjong/static/js/main.12abb323.chunk.js.map",
     "runtime~main.js": "/mehjong/static/js/runtime~main.44dd9da3.js",
     "runtime~main.js.map": "/mehjong/static/js/runtime~main.44dd9da3.js.map",
     "static/js/2.04bf6715.chunk.js": "/mehjong/static/js/2.04bf6715.chunk.js",
     "static/js/2.04bf6715.chunk.js.map": "/mehjong/static/js/2.04bf6715.chunk.js.map",
     "index.html": "/mehjong/index.html",
-    "precache-manifest.4957ca3efd458e528fbdbc09c47f4c7a.js": "/mehjong/precache-manifest.4957ca3efd458e528fbdbc09c47f4c7a.js",
+    "precache-manifest.4dbe40e972f671374251d24edf69c90a.js": "/mehjong/precache-manifest.4dbe40e972f671374251d24edf69c90a.js",
     "service-worker.js": "/mehjong/service-worker.js",
     "static/css/main.2cce8147.chunk.css.map": "/mehjong/static/css/main.2cce8147.chunk.css.map",
     "static/media/logo.svg": "/mehjong/static/media/logo.5d5d9eef.svg"
