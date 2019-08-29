@@ -1,0 +1,6 @@
+landing - ranking (current +-points / +=$$, total +points / +$$ and games played)
+history - players and points, button for add game
+	add game - inputs(player names[autosuggest] - end points, starting points
+                , notes on interesting hands
+	
+-First name only, check for existing names    
