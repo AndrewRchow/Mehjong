@@ -39,7 +39,7 @@ class NavigationBase extends React.Component {
       <div ref={(c) => (this._element = c)}>
         <Navbar collapseOnSelect expand="md" bg="light" variant="light" fixed="top"
           onToggle={this.setNavExpanded} expanded={this.state.navExpanded}>
-          <Navbar.Brand onClick={this.closeNav} href="#/">AAAA</Navbar.Brand>
+          <Navbar.Brand onClick={this.closeNav} href="#/">Meh</Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="mr-auto">

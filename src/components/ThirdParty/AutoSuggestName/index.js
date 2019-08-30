@@ -7,7 +7,6 @@ let names = [
 ];
 
 const getSuggestions = value => {
-  console.log(1);
   const inputValue = value.trim().toLowerCase();
   const inputLength = inputValue.length;
 
@@ -41,24 +40,22 @@ class AutoSuggestName extends React.Component {
   }
 
   componentDidMount() {
-    // this.props.firebase.bobaShops().on('value', snapshot => {
-    //   const bobaShopsObject = snapshot.val();
-    //   if (bobaShopsObject) {
-    //     const bobaShopsList = Object.keys(bobaShopsObject).map(key => ({
-    //       name: key,
-    //     }))
-    //     bobaShops = bobaShopsList;
-    //   }
-    // });
+    this.props.firebase.playerNames().once('value').then((snapshot) => {
+      if (snapshot.val()) {
+        const playerNamesList = Object.keys(snapshot.val()).map(key => ({
+          name: key,
+        }))
+        console.log(playerNamesList);
+        names = playerNamesList;
+      }
+    })
   }
 
   componentWillReceiveProps(props) {
-    console.log('props', props);
     this.setState({ value: props.playerName });
   }
 
   onChange = (event, { newValue }) => {
-    console.log('event', event, newValue);
     this.setState({
       value: newValue
     });
@@ -85,7 +82,7 @@ class AutoSuggestName extends React.Component {
   };
 
   componentWillUnmount() {
-    // this.props.firebase.bobaShops().off();
+    this.props.firebase.playerNames().off();
   }
 
 

@@ -24,8 +24,12 @@ class Firebase {
 
   //Database
   playerName = name => this.db.ref(`mehjong/playerNames/${name}`);
+  playerData = name => this.db.ref(`mehjong/playerDatas/${name}`);
+  session = id => this.db.ref(`mehjong/sessions/${id}`);
 
   playerNames = () => this.db.ref(`mehjong/playerNames`);
+  playerDatas = () => this.db.ref(`mehjong/playerDatas`);
+  sessions = () => this.db.ref(`mehjong/sessions`);
 
 
   user = userid => this.db.ref(`users/${userid}`);

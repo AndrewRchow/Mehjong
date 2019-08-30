@@ -13,13 +13,10 @@ class AddSessionModal extends React.Component {
     }
 
     handleContainerClick = (e) => {
-        if (this.node.contains(e.target)) {
-            console.log('in');
-            return;
-        }
-        console.log('out');
-
-        this.props.toggleModal();
+        // if (this.node.contains(e.target)) {
+        //     return;
+        // }
+        // this.props.toggleModal();
     }
 
     componentWillReceiveProps(props) {
@@ -61,7 +58,17 @@ class AddSessionModal extends React.Component {
             player1Points, player2Points, player3Points, player4Points,
         } = this.state;
 
-        const isInvalid = false;
+        let fourNames = {};
+        fourNames[player1Name] = true;
+        fourNames[player2Name] = true;
+        fourNames[player3Name] = true;
+        fourNames[player4Name] = true;
+        const fourDifferentNames = Object.keys(fourNames).length === 4
+
+        const isInvalid =
+        !fourDifferentNames || startingPoints === '' ||
+            player1Name === '' || player2Name === '' || player3Name === '' || player4Name === '' ||
+            player1Points === '' || player2Points === '' || player3Points === '' || player4Points === '';
 
         return (
             <div style={backdropStyle} onClick={this.handleContainerClick}>
@@ -100,10 +107,9 @@ class AddSessionModal extends React.Component {
                                         placeholder="Player 1" />
                                 </div>
                                 <div className='col-md-6'>
-                                    <input type="number" name="player1Points" placeholder=""
+                                    <input type="number" name="player1Points" placeholder="Player 1"
                                         value={player1Points} onChange={this.onChange}
                                         className={`form-control`}></input>
-
                                 </div>
                             </div>
 
@@ -150,7 +156,7 @@ class AddSessionModal extends React.Component {
                                         value={player4Points} onChange={this.onChange}
                                         className={`form-control`}></input>
                                 </div>
-                            </div> 
+                            </div>
 
                             <div className='row'>
                                 <textarea type="text" name="note" placeholder="Note"
