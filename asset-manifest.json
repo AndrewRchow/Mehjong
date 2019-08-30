@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/mehjong/static/css/main.564d337d.chunk.css",
-    "main.js": "/mehjong/static/js/main.535a9365.chunk.js",
-    "main.js.map": "/mehjong/static/js/main.535a9365.chunk.js.map",
+    "main.js": "/mehjong/static/js/main.a530dfe7.chunk.js",
+    "main.js.map": "/mehjong/static/js/main.a530dfe7.chunk.js.map",
     "runtime~main.js": "/mehjong/static/js/runtime~main.44dd9da3.js",
     "runtime~main.js.map": "/mehjong/static/js/runtime~main.44dd9da3.js.map",
     "static/css/2.22a7d4ef.chunk.css": "/mehjong/static/css/2.22a7d4ef.chunk.css",
     "static/js/2.fb7bdeac.chunk.js": "/mehjong/static/js/2.fb7bdeac.chunk.js",
     "static/js/2.fb7bdeac.chunk.js.map": "/mehjong/static/js/2.fb7bdeac.chunk.js.map",
     "index.html": "/mehjong/index.html",
-    "precache-manifest.81c89685718f5f8da671bbd15a35b147.js": "/mehjong/precache-manifest.81c89685718f5f8da671bbd15a35b147.js",
+    "precache-manifest.6698926e048061ced4a42f89ffe7f5cb.js": "/mehjong/precache-manifest.6698926e048061ced4a42f89ffe7f5cb.js",
     "service-worker.js": "/mehjong/service-worker.js",
     "static/css/2.22a7d4ef.chunk.css.map": "/mehjong/static/css/2.22a7d4ef.chunk.css.map",
     "static/css/main.564d337d.chunk.css.map": "/mehjong/static/css/main.564d337d.chunk.css.map"

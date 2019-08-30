@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/mehjong/precache-manifest.81c89685718f5f8da671bbd15a35b147.js"
+  "/mehjong/precache-manifest.6698926e048061ced4a42f89ffe7f5cb.js"
 );
 
 self.addEventListener('message', (event) => {

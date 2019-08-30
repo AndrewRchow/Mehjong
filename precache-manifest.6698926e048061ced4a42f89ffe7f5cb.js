@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "91e85b072c6317d1c8b3ae2fa767a497",
+    "revision": "7a216695f24fa57968b29509b831fb67",
     "url": "/mehjong/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mehjong/static/css/2.22a7d4ef.chunk.css"
   },
   {
-    "revision": "1b9fdf3c78bbcee1fd57",
+    "revision": "9bd7615537c67b9d370a",
     "url": "/mehjong/static/css/main.564d337d.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mehjong/static/js/2.fb7bdeac.chunk.js"
   },
   {
-    "revision": "1b9fdf3c78bbcee1fd57",
-    "url": "/mehjong/static/js/main.535a9365.chunk.js"
+    "revision": "9bd7615537c67b9d370a",
+    "url": "/mehjong/static/js/main.a530dfe7.chunk.js"
   },
   {
     "revision": "90514742e14fceb2b984",
