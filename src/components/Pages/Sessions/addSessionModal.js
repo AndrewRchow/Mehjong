@@ -66,14 +66,14 @@ class AddSessionModal extends React.Component {
         const fourDifferentNames = Object.keys(fourNames).length === 4
 
         const isInvalid =
-        !fourDifferentNames || startingPoints === '' ||
+            !fourDifferentNames || startingPoints === '' ||
             player1Name === '' || player2Name === '' || player3Name === '' || player4Name === '' ||
             player1Points === '' || player2Points === '' || player3Points === '' || player4Points === '';
 
         return (
             <div style={backdropStyle} onClick={this.handleContainerClick}>
                 <div ref={node => this.node = node}>
-                    <div className="modal-content" style={{ maxWidth: '700px' }}>
+                    <div className="modal-content" style={{ maxWidth: '700px', marginTop: 30 }}>
                         <div className="modal-header">
                             <h5 className="modal-title">New</h5>
                             <button type="button" className="close" onClick={this.props.toggleModal} aria-label="Close">
@@ -82,31 +82,34 @@ class AddSessionModal extends React.Component {
                         </div>
                         <div className={`modal-body`}>
                             <div className='row'>
-                                <div>
+                                <div class='col-6'>
                                     starting points
-                            </div>
-                                <input type="number" name="startingPoints"
-                                    value={startingPoints} onChange={this.onChange}></input>
+                                    </div>
+                                <div class='col-6'>
+                                    <input type="number" name="startingPoints" className='form-control'
+                                        value={startingPoints} onChange={this.onChange}></input>
+                                </div>
+
                             </div>
 
                             <div className='row'>
-                                <div className='col-md-6'>
+                                <div className='col-6'>
                                     Player
                                 </div>
-                                <div className='col-md-6'>
+                                <div className='col-6'>
                                     Points
                                     </div>
                             </div>
 
                             <div className='row'>
-                                <div className='col-md-6'>
+                                <div className='col-6'>
                                     <AutoSuggestName
                                         getInputData={this.getAutosuggestInput}
                                         getSelectedData={this.getAutoSuggestSelected}
                                         playerName={player1Name} playerProp="player1Name"
                                         placeholder="Player 1" />
                                 </div>
-                                <div className='col-md-6'>
+                                <div className='col-6'>
                                     <input type="number" name="player1Points" placeholder="Player 1"
                                         value={player1Points} onChange={this.onChange}
                                         className={`form-control`}></input>
@@ -114,14 +117,14 @@ class AddSessionModal extends React.Component {
                             </div>
 
                             <div className='row'>
-                                <div className='col-md-6'>
+                                <div className='col-6'>
                                     <AutoSuggestName
                                         getInputData={this.getAutosuggestInput}
                                         getSelectedData={this.getAutoSuggestSelected}
                                         playerName={player2Name} playerProp="player2Name"
                                         placeholder="Player 2" />
                                 </div>
-                                <div className='col-md-6'>
+                                <div className='col-6'>
                                     <input type="number" name="player2Points" placeholder="Player 2"
                                         value={player2Points} onChange={this.onChange}
                                         className={`form-control`}></input>
@@ -129,14 +132,14 @@ class AddSessionModal extends React.Component {
                             </div>
 
                             <div className='row'>
-                                <div className='col-md-6'>
+                                <div className='col-6'>
                                     <AutoSuggestName
                                         getInputData={this.getAutosuggestInput}
                                         getSelectedData={this.getAutoSuggestSelected}
                                         playerName={player3Name} playerProp="player3Name"
                                         placeholder="Player3" />
                                 </div>
-                                <div className='col-md-6'>
+                                <div className='col-6'>
                                     <input type="number" name="player3Points" placeholder="Player 3"
                                         value={player3Points} onChange={this.onChange}
                                         className={`form-control`}></input>
@@ -144,14 +147,14 @@ class AddSessionModal extends React.Component {
                             </div>
 
                             <div className='row'>
-                                <div className='col-md-6'>
+                                <div className='col-6'>
                                     <AutoSuggestName
                                         getInputData={this.getAutosuggestInput}
                                         getSelectedData={this.getAutoSuggestSelected}
                                         playerName={player4Name} playerProp="player4Name"
                                         placeholder="Player 4" />
                                 </div>
-                                <div className='col-md-6'>
+                                <div className='col-6'>
                                     <input type="number" name="player4Points" placeholder="Player 4"
                                         value={player4Points} onChange={this.onChange}
                                         className={`form-control`}></input>
@@ -159,10 +162,12 @@ class AddSessionModal extends React.Component {
                             </div>
 
                             <div className='row'>
-                                <textarea type="text" name="note" placeholder="Note"
-                                    value={note} onChange={this.onChange}
-                                    className={`form-control ${classes.textarea}`}
-                                />
+                                <div className='col-12'>
+                                    <textarea type="text" name="note" placeholder="Note"
+                                        value={note} onChange={this.onChange}
+                                        className={`form-control ${classes.textarea}`}
+                                    />
+                                </div>
                             </div>
 
                         </div>
