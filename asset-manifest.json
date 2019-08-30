@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/mehjong/static/css/main.2cce8147.chunk.css",
-    "main.js": "/mehjong/static/js/main.12abb323.chunk.js",
-    "main.js.map": "/mehjong/static/js/main.12abb323.chunk.js.map",
+    "main.css": "/mehjong/static/css/main.564d337d.chunk.css",
+    "main.js": "/mehjong/static/js/main.535a9365.chunk.js",
+    "main.js.map": "/mehjong/static/js/main.535a9365.chunk.js.map",
     "runtime~main.js": "/mehjong/static/js/runtime~main.44dd9da3.js",
     "runtime~main.js.map": "/mehjong/static/js/runtime~main.44dd9da3.js.map",
-    "static/js/2.04bf6715.chunk.js": "/mehjong/static/js/2.04bf6715.chunk.js",
-    "static/js/2.04bf6715.chunk.js.map": "/mehjong/static/js/2.04bf6715.chunk.js.map",
+    "static/css/2.22a7d4ef.chunk.css": "/mehjong/static/css/2.22a7d4ef.chunk.css",
+    "static/js/2.fb7bdeac.chunk.js": "/mehjong/static/js/2.fb7bdeac.chunk.js",
+    "static/js/2.fb7bdeac.chunk.js.map": "/mehjong/static/js/2.fb7bdeac.chunk.js.map",
     "index.html": "/mehjong/index.html",
-    "precache-manifest.4dbe40e972f671374251d24edf69c90a.js": "/mehjong/precache-manifest.4dbe40e972f671374251d24edf69c90a.js",
+    "precache-manifest.81c89685718f5f8da671bbd15a35b147.js": "/mehjong/precache-manifest.81c89685718f5f8da671bbd15a35b147.js",
     "service-worker.js": "/mehjong/service-worker.js",
-    "static/css/main.2cce8147.chunk.css.map": "/mehjong/static/css/main.2cce8147.chunk.css.map",
-    "static/media/logo.svg": "/mehjong/static/media/logo.5d5d9eef.svg"
+    "static/css/2.22a7d4ef.chunk.css.map": "/mehjong/static/css/2.22a7d4ef.chunk.css.map",
+    "static/css/main.564d337d.chunk.css.map": "/mehjong/static/css/main.564d337d.chunk.css.map"
   }
 }
